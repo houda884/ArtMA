@@ -23,6 +23,13 @@ Elle met en relation directe les **artisans locaux** — souvent peu visibles da
 
 L'application répond à une ambition sociale forte : démocratiser l'accès au commerce en ligne pour les petits producteurs, tout en contribuant à la préservation du patrimoine culturel marocain.
 
+## 🎥 Demo
+
+## 🎥 Demo
+
+[Voir la démo](https://raw.githubusercontent.com/houda884/ArtMA/main/Video%20ArtMA%20(1).mp4)
+
+
 ---
 
 ## ✨ Fonctionnalités principales
@@ -67,4 +74,71 @@ L'application répond à une ambition sociale forte : démocratiser l'accès au 
 
 ---
 
-## 📁 Architecture du projet:
+
+## 📁 Architecture du projet
+
+```tree
+ArtMA/
+├── app/
+│   ├── (auth)/
+│   │   ├── _layout.tsx
+│   │   ├── login.tsx
+│   │   └── signup.tsx
+│   ├── (tabs)/
+│   │   ├── _layout.tsx
+│   │   ├── home.tsx
+│   │   ├── categories.tsx
+│   │   ├── chat.tsx
+│   │   └── profile.tsx
+│   ├── artisan/
+│   │   └── [id].tsx
+│   ├── product/
+│   │   └── [id].tsx
+│   ├── chat/
+│   │   └── [id].tsx
+│   ├── edit-profile.tsx
+│   ├── favorites.tsx
+│   ├── orders.tsx
+│   ├── payment-methods.tsx
+│   ├── help.tsx
+│   └── privacy.tsx
+├── components/
+│   └── (composants réutilisables)
+├── contexts/
+│   └── (Context API — état global)
+├── hooks/
+│   └── (custom hooks)
+├── utils/
+│   └── (fonctions utilitaires)
+├── assets/
+│   └── (images, icônes, polices)
+├── app.json
+└── package.json
+```
+
+---
+
+## 🚀 Installation et lancement
+
+### Prérequis
+- Node.js v18+
+- npm ou yarn
+- Application [Expo Go](https://expo.dev/client) sur smartphone
+
+### Étapes
+
+```bash
+# 1. Cloner le projet
+git clone https://github.com/your-username/artma.git
+cd artma
+
+# 2. Installer les dépendances
+npm install
+
+# 3. Lancer le serveur de développement
+npx expo start
+```
+
+### Tester l'application
+
+**Sur mobile** — Scanner le QR code avec Expo Go :
