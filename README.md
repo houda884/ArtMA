@@ -25,7 +25,7 @@ L'application répond à une ambition sociale forte : démocratiser l'accès au 
 
 ## 🎥 Demo
 
-## 🎥 Demo
+
 
 [Voir la démo](https://raw.githubusercontent.com/houda884/ArtMA/main/Video%20ArtMA%20(1).mp4)
 
